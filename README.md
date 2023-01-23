@@ -1,4 +1,4 @@
-#Stock Market Jargon
+# Stock Market Jargon
 
 ## Overview of the analysis
 The looming threat of Recession in the US Stock Market has initiated a great deal of trepidation amongst investors and public. People are already resorting to precautionary measures ensuring stability during the much-anticipated tough times. Through this study we will try to bring context to this tittle-tattle in the market, as to whether the US Stock Market is really heading towards another trough or is it just a hoax.<br/>
