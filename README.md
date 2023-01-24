@@ -18,7 +18,7 @@ NASDAQ 100 is quite a popular index amongst stock investors in the local and glo
 The analysis will focus on the following:
 * Dataset: NASDAQ 100 stock prices from kaggle. Selecting companies on the basis of their capitalization.
 * Python: Using python to filter, extract, transform and load data for final analysis.
-* Machine Learning: Using Random Forest Classifier to test our model.
+* Machine Learning: Using different machine learning models to test the model.
 * Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist us in telling our research story!
 
 ### Expected outcomes:
