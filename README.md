@@ -1,12 +1,13 @@
 # Stock Market Jargon
 
-## Overview of the analysis
-The looming threat of Recession in the US Stock Market has initiated a great deal of trepidation amongst investors and public. People are already resorting to precautionary measures ensuring stability during the much-anticipated tough times. Through this study we will try to bring context to this tittle-tattle in the market, as to whether the US Stock Market is really heading towards another trough or is it just a hoax.<br/>
+## Overview of the analysis:
 
-In this analysis, we will use the historical data of stock prices of top 10 companies listed in NASDAQ 100 to predict the future stock prices, which will guide investors to understand whether to invest in stocks of a particular company. The companies will be selected based on their market capitalizations.
+The looming threat of Recession in the US Stock Market has initiated a great deal of trepidation amongst investors and public. People are already resorting to precautionary measures ensuring stability during the much-anticipated tough times. This study will try to bring context to this tittle-tattle in the market, as to whether the US Stock Market is really heading towards another trough or is it just a hoax.<br/>
 
-### Why NASDAQ 100?
-NASDAQ 100 is quite a popular index amongst stock investors in the local and global economy. In fact, it was the first to offer automated system of stock trading to the investors, thus bringing transparency in the market. It is second largest stock exchange in the world and is well trusted by the investors. Hence, we have selected this index for our analysis.
+The client, Ross, is a stock market enthusiast. He is excited about investing in the current dip that the stock market is witnessing. He has handed over the list of companies he is interested in and wants the data analyst team at Toronto Finances, to advice about the best two companies, he can potentially invest in.<br/>
+
+In this analysis, the team will use the historical data of stock prices of the list of five companies, handed over by Ross, to predict the future stock prices. This analysis will also guide other investors to understand whether to invest in stocks of these particular companies.
+
 
 ### Libraries used:
 * Pandas
@@ -18,10 +19,10 @@ NASDAQ 100 is quite a popular index amongst stock investors in the local and glo
 ## Purpose:
 The analysis will focus on the following:
 
-* Dataset: NASDAQ 100 stock prices from kaggle. Selecting companies on the basis of their capitalization.
+* Dataset: Using Yahoo Finance to get the data for stock prices of the companies selected by the client.
 * Python: Using python to filter, extract, transform and load data for final analysis.
-* Machine Learning: Using Random Forest Classifier to test our model.
-* Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist us in telling our research story!
+* Machine Learning: The data will be tested with different machine learning models to get the best results such as Random Forest Regression Model, SVM etc.
+* Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist in telling the research story.
 
 ## Expected outcomes:
 * The analysis will attempt to address the following questions:
