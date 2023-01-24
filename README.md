@@ -28,3 +28,4 @@ The analysis will focus on the following:
 * The analysis will attempt to address the following questions:
 1. Predicting stock prices of selected companies.<br/>
 2. Try to suggest whether or not to buy stock of particular company based on volatility.<br/>
+
