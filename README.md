@@ -21,17 +21,15 @@ The analysis will focus on the following:
 
 * Dataset: Using Yahoo Finance to get the data for stock prices of the companies selected by the client.
 * Python: Using python to filter, extract, transform and load data for final analysis.
-* Machine Learning: The data will be tested with different machine learning models to get the best results such as Random Forest Regression Model, SVM etc.
+* Machine Learning: The data will be tested with different machine learning models to get the best results such as Random Forest Regression Model, SVM, XGBoost etc.
 * Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist in telling the research story. The following are the few examples:
 [Tableau Dashboard 1.pdf](https://github.com/Harvinlong/Final-Project/files/10496941/Tableau.Dashboard.1.pdf)
-
 [Tableau Dashboard 2.pdf](https://github.com/Harvinlong/Final-Project/files/10496944/Tableau.Dashboard.2.pdf)
 
 
 ## Project Mockup:
 
 ![Picture1](https://user-images.githubusercontent.com/111387025/214500570-d6ffc852-bc78-4f52-8fb6-9c0d9ef36858.png)
-
 
 ## Expected outcomes:
 * The analysis will attempt to address the following questions:
