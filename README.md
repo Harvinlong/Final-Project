@@ -6,7 +6,7 @@ The looming threat of Recession in the US Stock Market has initiated a great dea
 
 The client, Ross, is a stock market enthusiast. He is excited about investing in the current dip that the stock market is witnessing. He has handed over the list of companies he is interested in and wants the data analyst team at Toronto Finances, to advice about the best two companies, he can potentially invest in.<br/>
 
-In this analysis, the team will use the historical data of stock prices of the list of five companies, handed over by Ross, to predict the future stock prices. This analysis will also guide other investors to understand whether to invest in stocks of these particular companies.
+In this analysis, the team will use the historical data of stock prices of the list of seven companies, handed over by Ross, to predict the future stock prices. This analysis will also guide other investors to understand whether to invest in stocks of these particular companies.
 
 
 ### Libraries used:
