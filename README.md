@@ -20,6 +20,10 @@ In this analysis, the team will use the historical data of stock prices of the l
 The analysis will focus on the following:
 
 * Dataset: Using Yahoo Finance to get the data for stock prices of the companies selected by the client.
+* ERD: Using PostgresSQL to store the data and make ERD diagram.
+
+![BRD diagram for 7 stock](https://user-images.githubusercontent.com/111387025/214731860-ff930db2-53ff-4980-b46c-906f9e9a4e6c.png)
+
 * Python: Using python to filter, extract, transform and load data for final analysis.
 * Machine Learning: The data will be tested with different machine learning models to get the best results such as Random Forest Regression Model, SVM, XGBoost etc.
 * Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist in telling the research story. The following are the few examples:
