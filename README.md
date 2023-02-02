@@ -37,6 +37,7 @@ The analysis will focus on the following:
 2. Try to suggest whether or not to buy stock of particular company.<br/>
 
 ## Results:
+The analysis used the LSTM and Random Forest Regressor to predict the future stock prices of the 7 companies. The machine learning models were trained on the data of last 5 years. The target variable is predicting the stock prices. The feature variables are 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'.
 #### Exploratory analysis:
 * The analysis started with downloading various dependencies.
 
@@ -50,9 +51,14 @@ The analysis will focus on the following:
 
 <img width="912" alt="Screen Shot 2023-02-02 at 6 02 21 AM" src="https://user-images.githubusercontent.com/111387025/216203971-9bdcbc19-51fb-4a7c-83d7-15917eb0d244.png">
 
-* Setting the feature and target variables.
+* Fetching the data from yahoo finance.
 
-<img width="386" alt="Screen Shot 2023-02-02 at 6 03 38 AM" src="https://user-images.githubusercontent.com/111387025/216204039-52baec41-9647-4a8a-b192-d43acf6a2793.png">
+![Screen Shot 2023-02-02 at 7 44 14 AM](https://user-images.githubusercontent.com/111387025/216216446-628db015-c026-476c-800c-ddbf7905183e.jpeg)
+
+* Creating a merged dataframe using data of all 7 companies.
+
+![Screen Shot 2023-02-02 at 7 44 26 AM](https://user-images.githubusercontent.com/111387025/216216475-cb024c92-d848-4358-8c54-b4b9d496caca.jpeg)
+
 
 #### Predictions:
 * Stock prices prediction based on Moving average:
@@ -70,4 +76,9 @@ The analysis will focus on the following:
 * Expected returns on the stocks of 7 companies.
 
 <img width="706" alt="Screen Shot 2023-02-02 at 6 13 38 AM" src="https://user-images.githubusercontent.com/111387025/216204282-06f9d4e1-0f41-447c-a927-1e617381519d.png">
+
+#### Progress on Tableau Dashboard.
+
+![image](https://user-images.githubusercontent.com/111387025/216216649-77f96e3d-f40a-470b-a3c5-4cf02cf2ac8a.png)
+
 
