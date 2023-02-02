@@ -36,3 +36,38 @@ The analysis will focus on the following:
 1. Predicting stock prices of selected companies.<br/>
 2. Try to suggest whether or not to buy stock of particular company.<br/>
 
+## Results:
+#### Exploratory analysis:
+* The analysis started with downloading various dependencies.
+
+<img width="533" alt="Screen Shot 2023-02-02 at 5 59 22 AM" src="https://user-images.githubusercontent.com/111387025/216203400-953c0c31-0f5e-4179-8fd8-16333c24f983.png">
+
+* Getting the date for analysis.
+
+<img width="647" alt="Screen Shot 2023-02-02 at 6 00 18 AM" src="https://user-images.githubusercontent.com/111387025/216203656-59e0cc80-cc1e-4ef5-a2ce-eb2ba4c86947.png">
+
+* List of the companies names for the analysis.
+
+<img width="912" alt="Screen Shot 2023-02-02 at 6 02 21 AM" src="https://user-images.githubusercontent.com/111387025/216203971-9bdcbc19-51fb-4a7c-83d7-15917eb0d244.png">
+
+* Setting the feature and target variables.
+
+<img width="386" alt="Screen Shot 2023-02-02 at 6 03 38 AM" src="https://user-images.githubusercontent.com/111387025/216204039-52baec41-9647-4a8a-b192-d43acf6a2793.png">
+
+#### Predictions:
+* Stock prices prediction based on Moving average:
+
+<img width="624" alt="Screen Shot 2023-02-02 at 6 08 27 AM" src="https://user-images.githubusercontent.com/111387025/216204146-1417cf67-0cbb-40d5-953c-284f639a943d.png">
+
+
+* Daily returns on the stocks of various companies.                                                                                       
+<img width="638" alt="Screen Shot 2023-02-02 at 6 10 54 AM" src="https://user-images.githubusercontent.com/111387025/216204219-cfc67919-c1dd-41e8-9d3b-3a4b503bffb7.png">
+
+* Correlation between the stock returns and stock closing price of 7 companies.
+
+<img width="597" alt="Screen Shot 2023-02-02 at 6 12 22 AM" src="https://user-images.githubusercontent.com/111387025/216204253-6d9a84e0-669d-4b4d-8f04-387399045e34.png">
+
+* Expected returns on the stocks of 7 companies.
+
+<img width="706" alt="Screen Shot 2023-02-02 at 6 13 38 AM" src="https://user-images.githubusercontent.com/111387025/216204282-06f9d4e1-0f41-447c-a927-1e617381519d.png">
+
