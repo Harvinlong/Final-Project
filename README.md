@@ -25,7 +25,7 @@ The analysis will focus on the following:
 ![BRD diagram for 7 stock](https://user-images.githubusercontent.com/111387025/214731860-ff930db2-53ff-4980-b46c-906f9e9a4e6c.png)
 
 * Python: Using python to filter, extract, transform and load data for final analysis.
-* Machine Learning: The data will be tested with different machine learning models to get the best results such as Random Forest Regression Model, SVM, XGBoost etc.
+* Machine Learning: The data will be tested with different machine learning models to get the best results such as Random Forest Regression Model, LSTM.
 * Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist in telling the research story. The following are the few examples:
 [Tableau Dashboard 1.pdf](https://github.com/Harvinlong/Final-Project/files/10496941/Tableau.Dashboard.1.pdf)
 [Tableau Dashboard 2.pdf](https://github.com/Harvinlong/Final-Project/files/10496944/Tableau.Dashboard.2.pdf)
