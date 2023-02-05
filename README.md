@@ -4,7 +4,7 @@
 
 The looming threat of Recession in the US Stock Market has initiated a great deal of trepidation amongst investors and public. People are already resorting to precautionary measures ensuring stability during the much-anticipated tough times. This study will try to bring context to this tittle-tattle in the market, as to whether the US Stock Market is really heading towards another trough or is it just a hoax.<br/>
 
-The client, Ross, is a stock market enthusiast. He is excited about investing in the current dip that the stock market is witnessing. He has handed over the list of companies he is interested in and wants the data analyst team at Toronto Finances, to advice about the best two companies, he can potentially invest in.<br/>
+The client, Ross, is a stock market enthusiast. He is excited about investing in the current dip that the stock market is witnessing. He has handed over the list of companies he is interested in and wants the data analyst team at Toronto Finances, to advice about the best two companies, he can potentially invest in. Ross is a risk-averser, therefore he wants to invest in the stocks which involves lesser risk. The team through the analysis will attempt to suggest a suitable stock as per the budget stated by the client.<br/>
 
 In this analysis, the team will use the historical data of stock prices of the list of seven companies, handed over by Ross, to predict the future stock prices. This analysis will also guide other investors to understand whether to invest in stocks of these particular companies.
 
@@ -22,22 +22,16 @@ The analysis will focus on the following:
 * Dataset: Using Yahoo Finance to get the data for stock prices of the companies selected by the client.
 * Python: Using python to filter, extract, transform and load data for final analysis.
 * Machine Learning: The data will be tested with different machine learning models to get the best results such as Random Forest Regression Model, SVM, XGBoost etc.
-* Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist in telling the research story. The following are the few examples:
-[Tableau Dashboard 1.pdf](https://github.com/Harvinlong/Final-Project/files/10496941/Tableau.Dashboard.1.pdf)
-[Tableau Dashboard 2.pdf](https://github.com/Harvinlong/Final-Project/files/10496944/Tableau.Dashboard.2.pdf)
+* Use Tableau for interactive visualizations displaying various bar-graphs, trendlines, tables etc., which will assist in telling the research story.
 
-
-## Project Mockup:
-
-![Picture1](https://user-images.githubusercontent.com/111387025/214500570-d6ffc852-bc78-4f52-8fb6-9c0d9ef36858.png)
-
-## Expected outcomes:
-* The analysis will attempt to address the following questions:
-1. Predicting stock prices of selected companies.<br/>
-2. Try to suggest whether or not to buy stock of particular company.<br/>
 
 ## Results:
 The analysis used the LSTM and Random Forest Regressor to predict the future stock prices of the 7 companies. The machine learning models were trained on the data of last 5 years. The target variable is predicting the stock prices. The feature variables are 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'.
+
+#### Tableau Public link:
+In order to present the final analysis, an interactive dashboard is designed using Tableau.
+[link to dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
+
 #### Exploratory analysis:
 * The analysis started with downloading various dependencies.
 
@@ -77,8 +71,5 @@ The analysis used the LSTM and Random Forest Regressor to predict the future sto
 
 <img width="706" alt="Screen Shot 2023-02-02 at 6 13 38 AM" src="https://user-images.githubusercontent.com/111387025/216204282-06f9d4e1-0f41-447c-a927-1e617381519d.png">
 
-#### Progress on Tableau Dashboard.
-
-![image](https://user-images.githubusercontent.com/111387025/216216649-77f96e3d-f40a-470b-a3c5-4cf02cf2ac8a.png)
 
 
