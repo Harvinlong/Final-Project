@@ -29,10 +29,10 @@ The analysis used the LSTM and Random Forest Regressor to predict the future sto
 
 #### Tableau Public link:
 In order to present the final analysis, an interactive dashboard is designed using Tableau.
-[link to dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
+[Link to dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
 
 #### ERD Diagram:
-[link to ERD](https://github.com/Harvinlong/Final-Project/blob/main/Images/BRD%20diagram%20for%207%20stock.png)
+[Link to ERD](https://github.com/Harvinlong/Final-Project/blob/main/Images/BRD%20diagram%20for%207%20stock.png)
 #### Exploratory analysis:
 * The analysis started with downloading various dependencies.
 
