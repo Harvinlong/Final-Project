@@ -20,12 +20,8 @@ In this analysis, the team will use the historical data of stock prices of the l
 The analysis will focus on the following:
 
 * Dataset: Using Yahoo Finance to get the data for stock prices of the companies selected by the client.
-* ERD: Using PostgresSQL to store the data and make ERD diagram.
-
-![BRD diagram for 7 stock](https://user-images.githubusercontent.com/111387025/214731860-ff930db2-53ff-4980-b46c-906f9e9a4e6c.png)
-
+* ERD: PostgresSQL will be used to store the data and make ERD diagram.
 * Python: Using python to filter, extract, transform and load data for final analysis.
-
 
 
 ## Results:
@@ -33,8 +29,10 @@ The analysis used the LSTM and Random Forest Regressor to predict the future sto
 
 #### Tableau Public link:
 In order to present the final analysis, an interactive dashboard is designed using Tableau.
-[link to dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
+[Link to dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
 
+#### ERD Diagram:
+[Link to ERD](https://github.com/Harvinlong/Final-Project/blob/main/Images/BRD%20diagram%20for%207%20stock.png)
 #### Exploratory analysis:
 * The analysis started with downloading various dependencies.
 
