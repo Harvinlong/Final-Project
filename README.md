@@ -8,7 +8,6 @@ The client, Ross, is a stock market enthusiast. He is excited about investing in
 
 In this analysis, the team will use the historical data of stock prices of the list of seven companies, handed over by Ross, to predict the future stock prices. This analysis will also guide other investors to understand whether to invest in stocks of these particular companies.
 
-
 ### Libraries used:
 * Pandas
 * NumPy
@@ -23,54 +22,65 @@ The analysis will focus on the following:
 * ERD: PostgresSQL will be used to store the data and make ERD diagram.
 * Python: Using python to filter, extract, transform and load data for final analysis.
 
-
 ## Results:
-The analysis used the LSTM and Random Forest Regressor to predict the future stock prices of the 7 companies. The machine learning models were trained on the data of last 5 years. The target variable is predicting the stock prices. The feature variables are 'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'.
+- In this project we will be looking at data from the stock market, particularly stock prices of the list of seven companies handed over by Ross. We will use Yahoo Finance to get stock information and Matplotlib to visualize different aspects of it, and finally we will look at a few ways of analyzing the risk of a stock based on its previous performance history. We will also be predicting future stock prices through a Monte Carlo method.
+- The Monte Carlo simulation is a mathematical technique that predicts possible outcomes of an uncertain event. Computer programs use this method to analyze past data and predict a range of future outcomes based on a choice of action.
+- We'll be answering the following questions along the way:
+ 1) What was the change in price of the stock over time?
+ 2) What was the moving average of the various stocks? 
+ 3) What was the daily return of the stock on average?
+ 4) How much value do we put at risk by investing in a particular stock?
+ 5) How can we attempt to predict future stock behavior?
 
-#### Tableau Public link:
-In order to present the final analysis, an interactive dashboard is designed using Tableau.
-[Link to dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
+### Interactive Dashboard:
+In order to present the final analysis, an interactive dashboard is designed using Tableau. [Link of Dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
 
-#### ERD Diagram:
-[Link to ERD](https://github.com/Harvinlong/Final-Project/blob/main/Images/BRD%20diagram%20for%207%20stock.png)
-#### Exploratory analysis:
+### ERD Diagram:  [Link to ERD](https://github.com/Harvinlong/Final-Project/blob/main/Images/BRD%20diagram%20for%207%20stock.png)
+
+## Exploratory analysis:
 * The analysis started with downloading various dependencies.
 
-<img width="533" alt="Screen Shot 2023-02-02 at 5 59 22 AM" src="https://user-images.githubusercontent.com/111387025/216203400-953c0c31-0f5e-4179-8fd8-16333c24f983.png">
-
-* Getting the date for analysis.
-
-<img width="647" alt="Screen Shot 2023-02-02 at 6 00 18 AM" src="https://user-images.githubusercontent.com/111387025/216203656-59e0cc80-cc1e-4ef5-a2ce-eb2ba4c86947.png">
+![dependencies](https://github.com/Harvinlong/Final-Project/blob/main/Images/dependencies.png)
 
 * List of the companies names for the analysis.
 
 <img width="912" alt="Screen Shot 2023-02-02 at 6 02 21 AM" src="https://user-images.githubusercontent.com/111387025/216203971-9bdcbc19-51fb-4a7c-83d7-15917eb0d244.png">
 
-* Fetching the data from yahoo finance.
+* Getting the stock data from yahoo finance and store into resource folder in CSV format
 
-![Screen Shot 2023-02-02 at 7 44 14 AM](https://user-images.githubusercontent.com/111387025/216216446-628db015-c026-476c-800c-ddbf7905183e.jpeg)
+![get_stock_data](https://github.com/Harvinlong/Final-Project/blob/main/Images/get_data.png)
 
-* Creating a merged dataframe using data of all 7 companies.
+### 1. What was the change in price of the stock overtime?
+In this section we'll go over how to handle requesting stock information with pandas, and analyze closing stock prices of the companies.
 
-![Screen Shot 2023-02-02 at 7 44 26 AM](https://user-images.githubusercontent.com/111387025/216216475-cb024c92-d848-4358-8c54-b4b9d496caca.jpeg)
+![Code_Closing_price](https://github.com/Harvinlong/Final-Project/blob/main/Images/code_for_closing_price.png)
 
+![Closing_price](https://github.com/Harvinlong/Final-Project/blob/main/Images/closing_price.png)
+In this section we'll go over how to handle requesting stock information with pandas, and analyze Volume of the companies.
+![code_volume](https://github.com/Harvinlong/Final-Project/blob/main/Images/code_of_volume.png)
 
-#### Predictions:
-* Stock prices prediction based on Moving average:
+![Volume](https://github.com/Harvinlong/Final-Project/blob/main/Images/volume.png)
 
-<img width="624" alt="Screen Shot 2023-02-02 at 6 08 27 AM" src="https://user-images.githubusercontent.com/111387025/216204146-1417cf67-0cbb-40d5-953c-284f639a943d.png">
+### 2. What was the moving average of the various stocks?
+- The moving average (MA) is a simple technical analysis tool that smooths out price data by creating a constantly updated average price.The average is taken over a specific period of time, like 10 days, 20 minutes, 30 weeks, or any time period the trader chooses.
 
+![code_moving_average](https://github.com/Harvinlong/Final-Project/blob/main/Images/code_moving_average.png)
 
-* Daily returns on the stocks of various companies.                                                                                       
-<img width="638" alt="Screen Shot 2023-02-02 at 6 10 54 AM" src="https://user-images.githubusercontent.com/111387025/216204219-cfc67919-c1dd-41e8-9d3b-3a4b503bffb7.png">
+![moviing_avg](https://github.com/Harvinlong/Final-Project/blob/main/Images/Moving%20average.png)
 
-* Correlation between the stock returns and stock closing price of 7 companies.
+### 3. What was the daily return of the stock on average?
+- Now that we've done some baseline analysis, let's go ahead and dive a little deeper. We're now going to analyze the risk of the stock. In order to do so we'll need to take a closer look at the daily changes of the stock, and not just its absolute value. Let's go ahead and use pandas to retrieve teh daily returns for stock of companies.
 
-<img width="597" alt="Screen Shot 2023-02-02 at 6 12 22 AM" src="https://user-images.githubusercontent.com/111387025/216204253-6d9a84e0-669d-4b4d-8f04-387399045e34.png">
+![code_daily_return](https://github.com/Harvinlong/Final-Project/blob/main/Images/code_daily_return.png)
 
-* Expected returns on the stocks of 7 companies.
+![daily_return](https://github.com/Harvinlong/Final-Project/blob/main/Images/Daily%20returns.png)
 
-<img width="706" alt="Screen Shot 2023-02-02 at 6 13 38 AM" src="https://user-images.githubusercontent.com/111387025/216204282-06f9d4e1-0f41-447c-a927-1e617381519d.png">
+### 4. How much value do we put at risk by investing in a particular stock?
+- There are many ways we can quantify risk, one of the most basic ways using the information we've gathered on daily percentage returns is by comparing the expected return with the standard deviation of the daily returns.
+
+![code_return_risk](https://github.com/Harvinlong/Final-Project/blob/main/Images/code_return_risk.png)
+
+![return_risk](https://github.com/Harvinlong/Final-Project/blob/main/Images/risk_n_return.png)
 
 ## Summary and Recommendations:
 The team recommended the client to consider purchasing the stocks of Google and Microsoft. The reason being, these two shares can potentially give moderate returns to the client in exchange of a very low risk, just as preferred by him. Further, this model can be used to train with a larger dataset, in the future, for predicting stock prices and thus, giving advice to the clients as per their risk preference and portfolio.
