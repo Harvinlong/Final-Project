@@ -56,6 +56,7 @@ In this section we'll go over how to handle requesting stock information with pa
 ![Code_Closing_price](https://github.com/Harvinlong/Final-Project/blob/main/Images/code_for_closing_price.png)
 
 ![Closing_price](https://github.com/Harvinlong/Final-Project/blob/main/Images/closing_price.png)
+
 In this section we'll go over how to handle requesting stock information with pandas, and analyze Volume of the companies.
 ![code_volume](https://github.com/Harvinlong/Final-Project/blob/main/Images/code_of_volume.png)
 
