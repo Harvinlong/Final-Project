@@ -72,5 +72,6 @@ In order to present the final analysis, an interactive dashboard is designed usi
 
 <img width="706" alt="Screen Shot 2023-02-02 at 6 13 38 AM" src="https://user-images.githubusercontent.com/111387025/216204282-06f9d4e1-0f41-447c-a927-1e617381519d.png">
 
-
+## Summary and Recommendations:
+The team recommended the client to consider purchasing the stocks of Google and Microsoft. The reason being, these two shares can potentially give moderate returns to the client in exchange of a very low risk, just as preferred by him. Further, this model can be used to train with a larger dataset, in the future, for predicting stock prices and thus, giving advice to the clients as per their risk preference and portfolio.
 
