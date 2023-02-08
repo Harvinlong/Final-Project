@@ -2,11 +2,11 @@
 
 ## Overview of the analysis:
 
-It is difficult to predict the future of the stock market with certainty, as it is influenced by a multitude of economic and geopolitical factors. However, many economists and market analysts have expressed concerns about the current state of the market and the potential for a recession. Some indicators, such as the yield curve, have signaled a possible slowdown in economic growth. This study will try to bring context to this tittle-tattle in the market, as to whether the US Stock Market is really heading towards another trough or is it just a hoax.<br/>
+It is difficult to predict the future of the stock market with certainty, as it is influenced by a multitude of economic and geopolitical factors. However, many economists and market analysts have expressed concerns about the current state of the market and the potential for a recession. Some indicators, such as the yield curve, have signaled a possible slowdown in economic growth.<br/>
 
 The client, Ross, is a stock market enthusiast. He is excited about investing in the current dip that the stock market is witnessing. He has handed over the list of companies he is interested in and wants the data analyst team at Toronto Finances, to advice about the best two companies, he can potentially invest in. Ross is a risk-averser, therefore he wants to invest in the stocks which involves lesser risk. The team through the analysis will attempt to suggest a suitable stock as per the budget stated by the client.<br/>
 
-In this analysis, the team will use the historical data of stock prices of the list of seven companies, handed over by Ross, to predict the future stock prices. This analysis will also guide other investors to understand whether to invest in stocks of these particular companies.
+In this analysis, the team will use the historical data of stock prices of the list of seven companies, handed over by Ross, to predict the future stock prices. This analysis will also guide other investors in taking investment decisions, as per their risk-tolerance.
 
 ### Libraries used:
 * Pandas
