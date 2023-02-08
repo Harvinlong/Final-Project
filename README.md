@@ -84,31 +84,31 @@ In this section we'll go over how to handle requesting stock information with pa
 ![return_risk](https://github.com/Harvinlong/Final-Project/blob/main/Images/risk_n_return.png)
 
 #### Predictions for different stocks:
-* **Forcasted Adjusted Close stock price for the company Amazon:
+* **Forcasted Adjusted Close stock price for the company Amazon:**
 
 <img width="1034" alt="Screen Shot 2023-02-08 at 11 02 37 AM" src="https://user-images.githubusercontent.com/111387025/217494432-aff6b4f1-585e-4161-9ec2-db815d495843.png">
 
-* **Forcasted Adjusted Close stock price for the company Apple:
+* **Forcasted Adjusted Close stock price for the company Apple:**
 
 <img width="1019" alt="Screen Shot 2023-02-08 at 11 03 16 AM" src="https://user-images.githubusercontent.com/111387025/217494754-bbb95caa-bae5-46b2-bbee-70da9a2a5a5e.png">
 
-* **Forcasted Adjusted Close stock price for the company Google:
+* **Forcasted Adjusted Close stock price for the company Google:**
 
 <img width="1031" alt="Screen Shot 2023-02-08 at 11 04 53 AM" src="https://user-images.githubusercontent.com/111387025/217494871-bcb89ed0-55a4-4937-885e-1b564bcae603.png">
 
-* **Forcasted Adjusted Close stock price for the company Meta:
+* **Forcasted Adjusted Close stock price for the company Meta:**
 
 <img width="1012" alt="Screen Shot 2023-02-08 at 11 05 08 AM" src="https://user-images.githubusercontent.com/111387025/217495046-3a7c9aab-a598-4b14-845c-049a07f4ac2d.png">
 
-* **Forcasted Adjusted Close stock price for the company Microsoft:
+* **Forcasted Adjusted Close stock price for the company Microsoft:**
 
 <img width="1024" alt="Screen Shot 2023-02-08 at 11 05 33 AM" src="https://user-images.githubusercontent.com/111387025/217495210-5ef46a97-8938-4410-b9f6-f4864bd945af.png">
 
-* **Forcasted Adjusted Close stock price for the company Netflix:
+* **Forcasted Adjusted Close stock price for the company Netflix:**
 
 <img width="1012" alt="Screen Shot 2023-02-08 at 11 05 46 AM" src="https://user-images.githubusercontent.com/111387025/217495324-c1166b10-aef2-4065-9730-ddd82672f691.png">
 
-* **Forcasted Adjusted Close stock price for the company Tesla:
+* **Forcasted Adjusted Close stock price for the company Tesla:**
 
 <img width="1014" alt="Screen Shot 2023-02-08 at 11 06 04 AM" src="https://user-images.githubusercontent.com/111387025/217495491-422c6698-8715-4bc7-a343-d4e48ee89752.png">
 
