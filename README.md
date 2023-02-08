@@ -2,7 +2,7 @@
 
 ## Overview of the analysis:
 
-The looming threat of Recession in the US Stock Market has initiated a great deal of trepidation amongst investors and public. People are already resorting to precautionary measures ensuring stability during the much-anticipated tough times. This study will try to bring context to this tittle-tattle in the market, as to whether the US Stock Market is really heading towards another trough or is it just a hoax.<br/>
+It is difficult to predict the future of the stock market with certainty, as it is influenced by a multitude of economic and geopolitical factors. However, many economists and market analysts have expressed concerns about the current state of the market and the potential for a recession. Some indicators, such as the yield curve, have signaled a possible slowdown in economic growth. This study will try to bring context to this tittle-tattle in the market, as to whether the US Stock Market is really heading towards another trough or is it just a hoax.<br/>
 
 The client, Ross, is a stock market enthusiast. He is excited about investing in the current dip that the stock market is witnessing. He has handed over the list of companies he is interested in and wants the data analyst team at Toronto Finances, to advice about the best two companies, he can potentially invest in. Ross is a risk-averser, therefore he wants to invest in the stocks which involves lesser risk. The team through the analysis will attempt to suggest a suitable stock as per the budget stated by the client.<br/>
 
@@ -33,7 +33,7 @@ The analysis will focus on the following:
  5) How can we attempt to predict future stock behavior?
 
 ### Interactive Dashboard:
-In order to present the final analysis, an interactive dashboard is designed using Tableau. [Link of Dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
+In order to present the final analysis, an interactive dashboard is designed using Tableau. [Link to Dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
 
 ### ERD Diagram:  [Link to ERD](https://github.com/Harvinlong/Final-Project/blob/main/Images/BRD%20diagram%20for%207%20stock.png)
 
@@ -84,31 +84,31 @@ In this section we'll go over how to handle requesting stock information with pa
 ![return_risk](https://github.com/Harvinlong/Final-Project/blob/main/Images/risk_n_return.png)
 
 #### Predictions for different stocks:
-* Forcasted Adjusted Close stock price for the company Amazon:
+* **Forcasted Adjusted Close stock price for the company Amazon:
 
 <img width="1034" alt="Screen Shot 2023-02-08 at 11 02 37 AM" src="https://user-images.githubusercontent.com/111387025/217494432-aff6b4f1-585e-4161-9ec2-db815d495843.png">
 
-* Forcasted Adjusted Close stock price for the company Apple:
+* **Forcasted Adjusted Close stock price for the company Apple:
 
 <img width="1019" alt="Screen Shot 2023-02-08 at 11 03 16 AM" src="https://user-images.githubusercontent.com/111387025/217494754-bbb95caa-bae5-46b2-bbee-70da9a2a5a5e.png">
 
-* Forcasted Adjusted Close stock price for the company Google:
+* **Forcasted Adjusted Close stock price for the company Google:
 
 <img width="1031" alt="Screen Shot 2023-02-08 at 11 04 53 AM" src="https://user-images.githubusercontent.com/111387025/217494871-bcb89ed0-55a4-4937-885e-1b564bcae603.png">
 
-* Forcasted Adjusted Close stock price for the company Meta:
+* **Forcasted Adjusted Close stock price for the company Meta:
 
 <img width="1012" alt="Screen Shot 2023-02-08 at 11 05 08 AM" src="https://user-images.githubusercontent.com/111387025/217495046-3a7c9aab-a598-4b14-845c-049a07f4ac2d.png">
 
-* Forcasted Adjusted Close stock price for the company Microsoft:
+* **Forcasted Adjusted Close stock price for the company Microsoft:
 
 <img width="1024" alt="Screen Shot 2023-02-08 at 11 05 33 AM" src="https://user-images.githubusercontent.com/111387025/217495210-5ef46a97-8938-4410-b9f6-f4864bd945af.png">
 
-* Forcasted Adjusted Close stock price for the company Netflix:
+* **Forcasted Adjusted Close stock price for the company Netflix:
 
 <img width="1012" alt="Screen Shot 2023-02-08 at 11 05 46 AM" src="https://user-images.githubusercontent.com/111387025/217495324-c1166b10-aef2-4065-9730-ddd82672f691.png">
 
-* Forcasted Adjusted Close stock price for the company Tesla:
+* **Forcasted Adjusted Close stock price for the company Tesla:
 
 <img width="1014" alt="Screen Shot 2023-02-08 at 11 06 04 AM" src="https://user-images.githubusercontent.com/111387025/217495491-422c6698-8715-4bc7-a343-d4e48ee89752.png">
 
