@@ -98,7 +98,7 @@ In this section we'll go over how to handle requesting stock information with pa
 
 * **Forcasted Adjusted Close stock price for the company Meta:**
 
-<img width="1012" alt="Screen Shot 2023-02-08 at 11 05 08 AM" src="https://user-images.githubusercontent.com/111387025/217495046-3a7c9aab-a598-4b14-845c-049a07f4ac2d.png">
+<img width="1012" alt="Screen Shot 2023-02-08 at 11 05 08 AM" src="https://github.com/Harvinlong/Final-Project/blob/main/Images/facebook_prediction.png">
 
 * **Forcasted Adjusted Close stock price for the company Microsoft:**
 
