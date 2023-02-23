@@ -36,6 +36,8 @@ The analysis will focus on the following:
 In order to present the final analysis, an interactive dashboard is designed using Tableau. [Link to Dashboard](https://public.tableau.com/app/profile/miral.kansagara/viz/stockmarketanalysis_16748468395020/Volume)
 
 ### ERD Diagram:  [Link to ERD](https://github.com/Harvinlong/Final-Project/blob/main/Images/BRD%20diagram%20for%207%20stock.png)
+### PowerPoint:  [Link to Slides](https://docs.google.com/presentation/d/1r_AcCgVYkyeBnoCCBbiuPqVGMg8nLqAD/edit?usp=sharing&ouid=115417629080338854230&rtpof=true&sd=true)
+
 
 ## Exploratory analysis:
 * The analysis started with downloading various dependencies.
